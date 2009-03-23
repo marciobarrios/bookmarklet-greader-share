@@ -1,3 +1,10 @@
+/*
+ 	Bookmarklet for sharing items in Google Reader
+	By Victor Bautista (http://0x564242.me) and Marcio Barrios (http://marciobarrios.com)
+
+	This work is licensed under a Creative Commons Attribution 3.0 License (http://creativecommons.org/licenses/by/3.0/).
+*/
+
 var items = [
 	{ 
 		name: "Facebook", 
@@ -17,7 +24,7 @@ var items = [
 	];
 
 
-var fbreader={version:"0.3", //modificada - Marcio Barrios
+var fbreader={version:"0.3",
     addScripts:function(){
         if(typeof jQuery=='function')
             return;
@@ -34,7 +41,7 @@ var fbreader={version:"0.3", //modificada - Marcio Barrios
 		
 		jQuery(".entry").live('mouseover',fbreader.addnewitems);
 		
-		jQuery('#message-area-inner').html('GReader Share cargado correctamente')
+		jQuery('#message-area-inner').html('GReader Share loaded')
 		jQuery('#message-area-outer').addClass('info-message').removeClass('hidden');
 		setTimeout("jQuery('#message-area-outer').addClass('hidden')",3000);
 	}, 
