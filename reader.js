@@ -2,7 +2,7 @@
  	Bookmarklet for sharing items in Google Reader
 	By Victor Bautista (http://0x564242.me) and Marcio Barrios (http://marciobarrios.com)
 
-	This work is licensed under a Creative Commons Attribution 3.0 License (http://creativecommons.org/licenses/by/3.0/).
+	This work is licensed under a Creative Commons Attribution 3.0 License (http://creativecommons.org/licenses/by/3.0/)
 */
 
 var items = [
