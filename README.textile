@@ -1,0 +1,5 @@
+This code is a bookmarklet for sharing items in Google Reader, you can share items to delicious, facebook or mename, and you can add more web applicattions for sharing.
+
+To use the bookmarlet simply "drag this file":bookmarklet  to your favorites. When you enter into Google Reader, you'll need to click the bookmarklet to load, you'll see the following message at the top: "Google Reader loaded", and since then you'll see the links for share at the bottom of any post.
+
+[bookmarklet]javascript:(function(s)%7Bs.type='text/javascript';s.src='http://0x564242.me/reader/reader.js?rand='+Math.random();document.getElementsByTagName('head')%5B0%5D.appendChild(s)%7D)(document.createElement('script'));
